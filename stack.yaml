@@ -1,0 +1,8 @@
+resolver: lts-18.23
+packages:
+- .
+local-bin-path: bin
+system-ghc: true
+allow-different-user: true
+extra-deps:
+- oeis-0.3.10

@@ -1,0 +1,17 @@
+{
+	"name": "GHC 8.10.7",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+
+	"containerUser": "drexelpl",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+
+	"extensions": [
+		"haskell.haskell"
+	]
+}

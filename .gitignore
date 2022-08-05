@@ -1,0 +1,11 @@
+*~
+*.bak
+*.hi
+*.o
+\#*
+.DS_Store
+.stack-work/
+.vscode/
+dist/
+dist-newstyle/
+stack.yaml.lock
